@@ -1,0 +1,5 @@
+# Generated datasets will be placed here by: npm run generate-data
+# Full implementation in Phase 3.
+# Do not commit generated data to version control.
+*.csv
+*.json

@@ -18,8 +18,23 @@ export default defineConfig({
       },
     },
   },
+  optimizeDeps: {
+    include: [
+      'react',
+      'react-dom',
+      'react-router-dom',
+      'lucide-react',
+      'recharts',
+      '@tanstack/react-query',
+      'axios',
+      'clsx',
+      'tailwind-merge',
+    ],
+    force: true,
+  },
   build: {
     outDir: 'dist',
     sourcemap: true,
   },
 });
+
